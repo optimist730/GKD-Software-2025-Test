@@ -1,0 +1,65 @@
+{
+	"abstract" : true,
+	"artifacts" : 
+	[
+		{
+			"path" : "F:/tool/opencv/build/x64/MinGW/install/x64/mingw/bin/libopencv_world4120.dll"
+		},
+		{
+			"path" : "F:/tool/opencv/build/x64/MinGW/install/x64/mingw/lib/libopencv_world4120.dll.a"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"find_package"
+		],
+		"files" : 
+		[
+			"F:/tool/opencv/build/x64/MinGW/install/x64/mingw/lib/OpenCVConfig.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 9,
+				"parent" : 0
+			},
+			{
+				"file" : 0,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 245,
+				"parent" : 2
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"id" : "opencv_photo::@6890427a1f51a3e7e1df",
+	"imported" : true,
+	"local" : true,
+	"name" : "opencv_photo",
+	"nameOnDisk" : "libopencv_world4120.dll",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sources" : [],
+	"type" : "SHARED_LIBRARY"
+}

@@ -1,0 +1,11 @@
+{
+    "cmake.sourceDirectory": "F:/GKD/GKD-Software-2025-Test",
+    "C_Cpp.default.includePath": [
+        "${workspaceFolder}/src",
+        "F:/tool/opencv/build/include"
+    ],
+    "C_Cpp.default.browse.path": [
+        "${workspaceFolder}/src",
+        "F:/tool/opencv/build/include"
+    ]
+}

@@ -6,4 +6,4 @@ using namespace std;
 
 model loadmodel();
 
-void loadmatrix(matrix& a);
+void loadmatrix(matrix& a, const string& filename);

@@ -24,18 +24,19 @@ model loadmodel(){
         data_["fc2.bias"][1].get<int>()
     );
 
-    loadmatrix(model_.w1);
-    loadmatrix(model_.b1);
-    loadmatrix(model_.w2);
-    loadmatrix(model_.b2);
+    loadmatrix(model_.w1, "mnist-fc/fc1.weight");
+    loadmatrix(model_.b1, "mnist-fc/fc1.bias");
+    loadmatrix(model_.w2, "mnist-fc/fc2.weight");
+    loadmatrix(model_.b2, "mnist-fc/fc2.bias");
     return model_;
 }
 
-void loadmatrix(matrix& a){
-    ifstream file{"mnist-fc/fc1.weight",ios::in | ios::binary};
+void loadmatrix(matrix& a, const string& filename){
+    ifstream file{filename,ios::in | ios::binary};
     if(!file){
         cerr<<"矩阵文件无法打开！"<<endl;
         file.close();
+        return;
     }
     for(int i=0;i<a.rows;i++){
         for(int j=0;j<a.cols;j++){
@@ -44,4 +45,5 @@ void loadmatrix(matrix& a){
             a.data[i][j]=temp;
         }
     }
+    file.close();
 }

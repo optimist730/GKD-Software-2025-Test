@@ -1,5 +1,11 @@
 #include "part1.hpp"
 
+matrix::matrix(){
+    this->rows = 0;
+    this->cols = 0;
+    data = std::vector<std::vector<float>>();
+}
+
 matrix::matrix(int rows,int cols){
     this->rows = rows;
     this->cols = cols;
@@ -49,14 +55,10 @@ matrix SoftMax(matrix a){
 }
 
 model::model(int w1r,int w1c,int b1r,int b1c,int w2r,int w2c,int b2r,int b2c){
-    this->w1.rows=w1r;
-    this->w1.cols=w1c;
-    this->b1.rows=b1r;
-    this->b1.cols=b1c;
-    this->w2.rows=w2r;
-    this->w2.cols=w2c;
-    this->b2.rows=b2r;
-    this->b2.cols=b2c;
+    this->w1 = matrix(w1r, w1c);
+    this->b1 = matrix(b1r, b1c);
+    this->w2 = matrix(w2r, w2c);
+    this->b2 = matrix(b2r, b2c);
 }
 
 matrix model::forward(matrix x){
@@ -66,6 +68,6 @@ matrix model::forward(matrix x){
     matrix third=second.mul(w2);
     third.add(b2);
     matrix result=SoftMax(third);
-    return third;
+    return result;
 
 }

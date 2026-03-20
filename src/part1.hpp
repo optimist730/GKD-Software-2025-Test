@@ -1,3 +1,6 @@
+#ifndef PART1_HPP
+#define PART1_HPP
+
 #include <iostream>
 #include <vector>
 #include <cmath>
@@ -28,3 +31,5 @@ public:
 
     matrix w1,b1,w2,b2;
 };
+
+#endif
