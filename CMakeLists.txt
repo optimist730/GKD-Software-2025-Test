@@ -11,13 +11,19 @@ find_package(OpenCV REQUIRED)
 # 包含源代码目录
 include_directories(src)
 
-# 收集所有源文件
-set(SOURCE_FILES
+# 收集源文件
+set(MAIN_SOURCE_FILES
     src/main.cpp
 )
 
-# 添加可执行文件
-add_executable(main ${SOURCE_FILES})
+set(APPLY_SOURCE_FILES
+    src/apply.cpp
+)
 
-# 链接 OpenCV 库
-target_link_libraries(main ${OpenCV_LIBS})
+# 添加可执行文件
+add_executable(main ${MAIN_SOURCE_FILES})
+add_executable(apply ${APPLY_SOURCE_FILES})
+
+# 链接库
+target_link_libraries(main ${OpenCV_LIBS} ws2_32)
+target_link_libraries(apply ${OpenCV_LIBS} ws2_32)

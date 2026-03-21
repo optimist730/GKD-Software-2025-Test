@@ -129,6 +129,43 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
+#=============================================================================
+# Target rules for targets named apply
+
+# Build rule for target.
+apply: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apply
+.PHONY : apply
+
+# fast build rule for target.
+apply/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/apply.dir/build.make CMakeFiles/apply.dir/build
+.PHONY : apply/fast
+
+src/apply.obj: src/apply.cpp.obj
+.PHONY : src/apply.obj
+
+# target to build an object file
+src/apply.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/apply.dir/build.make CMakeFiles/apply.dir/src/apply.cpp.obj
+.PHONY : src/apply.cpp.obj
+
+src/apply.i: src/apply.cpp.i
+.PHONY : src/apply.i
+
+# target to preprocess a source file
+src/apply.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/apply.dir/build.make CMakeFiles/apply.dir/src/apply.cpp.i
+.PHONY : src/apply.cpp.i
+
+src/apply.s: src/apply.cpp.s
+.PHONY : src/apply.s
+
+# target to generate assembly for a file
+src/apply.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/apply.dir/build.make CMakeFiles/apply.dir/src/apply.cpp.s
+.PHONY : src/apply.cpp.s
+
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
 
@@ -161,7 +198,11 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... apply"
 	@echo "... main"
+	@echo "... src/apply.obj"
+	@echo "... src/apply.i"
+	@echo "... src/apply.s"
 	@echo "... src/main.obj"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

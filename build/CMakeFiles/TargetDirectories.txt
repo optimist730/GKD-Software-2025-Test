@@ -1,3 +1,4 @@
 F:/GKD/GKD-Software-2025-Test/build/CMakeFiles/main.dir
+F:/GKD/GKD-Software-2025-Test/build/CMakeFiles/apply.dir
 F:/GKD/GKD-Software-2025-Test/build/CMakeFiles/edit_cache.dir
 F:/GKD/GKD-Software-2025-Test/build/CMakeFiles/rebuild_cache.dir
