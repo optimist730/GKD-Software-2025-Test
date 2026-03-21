@@ -1,12 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/main.dir/src/main.cpp.obj"
   "CMakeFiles/main.dir/src/main.cpp.obj.d"
-  "CMakeFiles/main.dir/src/part1.cpp.obj"
-  "CMakeFiles/main.dir/src/part1.cpp.obj.d"
-  "CMakeFiles/main.dir/src/part2.cpp.obj"
-  "CMakeFiles/main.dir/src/part2.cpp.obj.d"
-  "CMakeFiles/main.dir/src/part6.cpp.obj"
-  "CMakeFiles/main.dir/src/part6.cpp.obj.d"
   "libmain.dll.a"
   "main.exe"
   "main.exe.manifest"

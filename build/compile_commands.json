@@ -4,23 +4,5 @@
   "command": "C:/msys64/mingw64/bin/g++.exe  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles/main.dir/src/main.cpp.obj -c F:/GKD/GKD-Software-2025-Test/src/main.cpp",
   "file": "F:/GKD/GKD-Software-2025-Test/src/main.cpp",
   "output": "CMakeFiles/main.dir/src/main.cpp.obj"
-},
-{
-  "directory": "F:/GKD/GKD-Software-2025-Test/build",
-  "command": "C:/msys64/mingw64/bin/g++.exe  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles/main.dir/src/part1.cpp.obj -c F:/GKD/GKD-Software-2025-Test/src/part1.cpp",
-  "file": "F:/GKD/GKD-Software-2025-Test/src/part1.cpp",
-  "output": "CMakeFiles/main.dir/src/part1.cpp.obj"
-},
-{
-  "directory": "F:/GKD/GKD-Software-2025-Test/build",
-  "command": "C:/msys64/mingw64/bin/g++.exe  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles/main.dir/src/part2.cpp.obj -c F:/GKD/GKD-Software-2025-Test/src/part2.cpp",
-  "file": "F:/GKD/GKD-Software-2025-Test/src/part2.cpp",
-  "output": "CMakeFiles/main.dir/src/part2.cpp.obj"
-},
-{
-  "directory": "F:/GKD/GKD-Software-2025-Test/build",
-  "command": "C:/msys64/mingw64/bin/g++.exe  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles/main.dir/src/part6.cpp.obj -c F:/GKD/GKD-Software-2025-Test/src/part6.cpp",
-  "file": "F:/GKD/GKD-Software-2025-Test/src/part6.cpp",
-  "output": "CMakeFiles/main.dir/src/part6.cpp.obj"
 }
 ]

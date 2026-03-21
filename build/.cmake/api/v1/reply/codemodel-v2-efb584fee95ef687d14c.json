@@ -1,0 +1,204 @@
+{
+	"configurations" : 
+	[
+		{
+			"abstractTargets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "opencv_calib3d::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-opencv_calib3d-Debug-ba6e341daac55b4166b0.json",
+					"name" : "opencv_calib3d",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "opencv_core::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-opencv_core-Debug-a0cb66f53847b625991c.json",
+					"name" : "opencv_core",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "opencv_dnn::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-opencv_dnn-Debug-ab297fb77bfc26c02a8c.json",
+					"name" : "opencv_dnn",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "opencv_features2d::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-opencv_features2d-Debug-87bbf730663ce86698a5.json",
+					"name" : "opencv_features2d",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "opencv_flann::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-opencv_flann-Debug-6679ac2d4257a81af52b.json",
+					"name" : "opencv_flann",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "opencv_highgui::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-opencv_highgui-Debug-40abd260540979f78818.json",
+					"name" : "opencv_highgui",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "opencv_imgcodecs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-opencv_imgcodecs-Debug-47080412a016a2d17d50.json",
+					"name" : "opencv_imgcodecs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "opencv_imgproc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-opencv_imgproc-Debug-e7023d780bdd323ff8c1.json",
+					"name" : "opencv_imgproc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "opencv_ml::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-opencv_ml-Debug-0cc6477840035105f54d.json",
+					"name" : "opencv_ml",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "opencv_objdetect::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-opencv_objdetect-Debug-2f9b6489d7d4c0f71be5.json",
+					"name" : "opencv_objdetect",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "opencv_photo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-opencv_photo-Debug-dbbe72af5306877a02e2.json",
+					"name" : "opencv_photo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "opencv_stitching::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-opencv_stitching-Debug-341cbe6a64cbfe3e39c1.json",
+					"name" : "opencv_stitching",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "opencv_video::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-opencv_video-Debug-5987ec365e233417c76c.json",
+					"name" : "opencv_video",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "opencv_videoio::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-opencv_videoio-Debug-dacfb0733e9b8074efd8.json",
+					"name" : "opencv_videoio",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "opencv_world::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-opencv_world-Debug-a1745182c353c65813c7.json",
+					"name" : "opencv_world",
+					"projectIndex" : 0
+				}
+			],
+			"directories" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					],
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f6f22219c74102c3da70.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "GKD-Software-2025-Test",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-main-Debug-fdabd45ed4942e9a82f9.json",
+					"name" : "main",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "F:/GKD/GKD-Software-2025-Test/build",
+		"source" : "F:/GKD/GKD-Software-2025-Test"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	}
+}

@@ -14,9 +14,6 @@ include_directories(src)
 # 收集所有源文件
 set(SOURCE_FILES
     src/main.cpp
-    src/part1.cpp
-    src/part2.cpp
-    src/part6.cpp
 )
 
 # 添加可执行文件

@@ -87,65 +87,14 @@ CMakeFiles/main.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/main.cpp.s"
 	C:/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:/GKD/GKD-Software-2025-Test/src/main.cpp -o CMakeFiles/main.dir/src/main.cpp.s
 
-CMakeFiles/main.dir/src/part1.cpp.obj: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/src/part1.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
-CMakeFiles/main.dir/src/part1.cpp.obj: F:/GKD/GKD-Software-2025-Test/src/part1.cpp
-CMakeFiles/main.dir/src/part1.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:/GKD/GKD-Software-2025-Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/src/part1.cpp.obj"
-	C:/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/part1.cpp.obj -MF CMakeFiles/main.dir/src/part1.cpp.obj.d -o CMakeFiles/main.dir/src/part1.cpp.obj -c F:/GKD/GKD-Software-2025-Test/src/part1.cpp
-
-CMakeFiles/main.dir/src/part1.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/part1.cpp.i"
-	C:/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:/GKD/GKD-Software-2025-Test/src/part1.cpp > CMakeFiles/main.dir/src/part1.cpp.i
-
-CMakeFiles/main.dir/src/part1.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/part1.cpp.s"
-	C:/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:/GKD/GKD-Software-2025-Test/src/part1.cpp -o CMakeFiles/main.dir/src/part1.cpp.s
-
-CMakeFiles/main.dir/src/part2.cpp.obj: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/src/part2.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
-CMakeFiles/main.dir/src/part2.cpp.obj: F:/GKD/GKD-Software-2025-Test/src/part2.cpp
-CMakeFiles/main.dir/src/part2.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:/GKD/GKD-Software-2025-Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/src/part2.cpp.obj"
-	C:/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/part2.cpp.obj -MF CMakeFiles/main.dir/src/part2.cpp.obj.d -o CMakeFiles/main.dir/src/part2.cpp.obj -c F:/GKD/GKD-Software-2025-Test/src/part2.cpp
-
-CMakeFiles/main.dir/src/part2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/part2.cpp.i"
-	C:/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:/GKD/GKD-Software-2025-Test/src/part2.cpp > CMakeFiles/main.dir/src/part2.cpp.i
-
-CMakeFiles/main.dir/src/part2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/part2.cpp.s"
-	C:/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:/GKD/GKD-Software-2025-Test/src/part2.cpp -o CMakeFiles/main.dir/src/part2.cpp.s
-
-CMakeFiles/main.dir/src/part6.cpp.obj: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/src/part6.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
-CMakeFiles/main.dir/src/part6.cpp.obj: F:/GKD/GKD-Software-2025-Test/src/part6.cpp
-CMakeFiles/main.dir/src/part6.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:/GKD/GKD-Software-2025-Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/src/part6.cpp.obj"
-	C:/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/part6.cpp.obj -MF CMakeFiles/main.dir/src/part6.cpp.obj.d -o CMakeFiles/main.dir/src/part6.cpp.obj -c F:/GKD/GKD-Software-2025-Test/src/part6.cpp
-
-CMakeFiles/main.dir/src/part6.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/part6.cpp.i"
-	C:/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:/GKD/GKD-Software-2025-Test/src/part6.cpp > CMakeFiles/main.dir/src/part6.cpp.i
-
-CMakeFiles/main.dir/src/part6.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/part6.cpp.s"
-	C:/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:/GKD/GKD-Software-2025-Test/src/part6.cpp -o CMakeFiles/main.dir/src/part6.cpp.s
-
 # Object files for target main
 main_OBJECTS = \
-"CMakeFiles/main.dir/src/main.cpp.obj" \
-"CMakeFiles/main.dir/src/part1.cpp.obj" \
-"CMakeFiles/main.dir/src/part2.cpp.obj" \
-"CMakeFiles/main.dir/src/part6.cpp.obj"
+"CMakeFiles/main.dir/src/main.cpp.obj"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
 
 main.exe: CMakeFiles/main.dir/src/main.cpp.obj
-main.exe: CMakeFiles/main.dir/src/part1.cpp.obj
-main.exe: CMakeFiles/main.dir/src/part2.cpp.obj
-main.exe: CMakeFiles/main.dir/src/part6.cpp.obj
 main.exe: CMakeFiles/main.dir/build.make
 main.exe: F:/tool/opencv/build/x64/MinGW/install/x64/mingw/lib/libopencv_world4120.dll.a
 main.exe: F:/tool/opencv/build/x64/MinGW/install/x64/mingw/lib/libopencv_world4120.dll.a
@@ -164,7 +113,7 @@ main.exe: F:/tool/opencv/build/x64/MinGW/install/x64/mingw/lib/libopencv_world41
 main.exe: F:/tool/opencv/build/x64/MinGW/install/x64/mingw/lib/libopencv_world4120.dll.a
 main.exe: CMakeFiles/main.dir/linkLibs.rsp
 main.exe: CMakeFiles/main.dir/objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=F:/GKD/GKD-Software-2025-Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable main.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=F:/GKD/GKD-Software-2025-Test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable main.exe"
 	F:/cmake-4.2.0-windows-x86_64/cmake-4.2.0-windows-x86_64/bin/cmake.exe -E rm -f CMakeFiles/main.dir/objects.a
 	C:/msys64/mingw64/bin/ar.exe qc CMakeFiles/main.dir/objects.a @CMakeFiles/main.dir/objects1.rsp
 	C:/msys64/mingw64/bin/g++.exe -g -Wl,--whole-archive CMakeFiles/main.dir/objects.a -Wl,--no-whole-archive -o main.exe -Wl,--out-implib,libmain.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/main.dir/linkLibs.rsp

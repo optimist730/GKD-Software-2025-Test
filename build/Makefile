@@ -153,78 +153,6 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
-src/part1.obj: src/part1.cpp.obj
-.PHONY : src/part1.obj
-
-# target to build an object file
-src/part1.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/part1.cpp.obj
-.PHONY : src/part1.cpp.obj
-
-src/part1.i: src/part1.cpp.i
-.PHONY : src/part1.i
-
-# target to preprocess a source file
-src/part1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/part1.cpp.i
-.PHONY : src/part1.cpp.i
-
-src/part1.s: src/part1.cpp.s
-.PHONY : src/part1.s
-
-# target to generate assembly for a file
-src/part1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/part1.cpp.s
-.PHONY : src/part1.cpp.s
-
-src/part2.obj: src/part2.cpp.obj
-.PHONY : src/part2.obj
-
-# target to build an object file
-src/part2.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/part2.cpp.obj
-.PHONY : src/part2.cpp.obj
-
-src/part2.i: src/part2.cpp.i
-.PHONY : src/part2.i
-
-# target to preprocess a source file
-src/part2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/part2.cpp.i
-.PHONY : src/part2.cpp.i
-
-src/part2.s: src/part2.cpp.s
-.PHONY : src/part2.s
-
-# target to generate assembly for a file
-src/part2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/part2.cpp.s
-.PHONY : src/part2.cpp.s
-
-src/part6.obj: src/part6.cpp.obj
-.PHONY : src/part6.obj
-
-# target to build an object file
-src/part6.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/part6.cpp.obj
-.PHONY : src/part6.cpp.obj
-
-src/part6.i: src/part6.cpp.i
-.PHONY : src/part6.i
-
-# target to preprocess a source file
-src/part6.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/part6.cpp.i
-.PHONY : src/part6.cpp.i
-
-src/part6.s: src/part6.cpp.s
-.PHONY : src/part6.s
-
-# target to generate assembly for a file
-src/part6.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/part6.cpp.s
-.PHONY : src/part6.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -237,15 +165,6 @@ help:
 	@echo "... src/main.obj"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
-	@echo "... src/part1.obj"
-	@echo "... src/part1.i"
-	@echo "... src/part1.s"
-	@echo "... src/part2.obj"
-	@echo "... src/part2.i"
-	@echo "... src/part2.s"
-	@echo "... src/part6.obj"
-	@echo "... src/part6.i"
-	@echo "... src/part6.s"
 .PHONY : help
 
 

@@ -1,15 +1,32 @@
 #ifndef PART6_HPP
 #define PART6_HPP
 
-#include "part1.hpp"
+#include "part3.hpp"
 #include "part2.hpp"
 #include <opencv2/opencv.hpp>
 
 using namespace cv;
 using namespace std;
 
-matrix part6(model model_);
+template<class T>
+matrix<T> part6(model<T> model_) {
+    Mat img = imread("../nums/0.png",IMREAD_GRAYSCALE);
+    if(img.empty()){
+        cerr<<"Cannot read image!"<<endl;
+        matrix<T> result(1, 10);
+        return result;
+    }
+    Mat reduce;
+    resize(img,reduce,Size(28,28));
+    matrix<T> x = matrix<T> (1,784);
+    for(int i=0;i<28;i++){
+        for(int j=0;j<28;j++){
+            unsigned char temp=reduce.at<unsigned char>(i,j);
+            x.data[0][i*28+j]=static_cast<T>(temp)/255.0;
+        }
+    }
+    matrix<T> x_=model_.forward(x);
+    return x_;
+}
 
 #endif
-
-

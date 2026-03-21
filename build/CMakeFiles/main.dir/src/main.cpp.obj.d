@@ -1,7 +1,7 @@
 CMakeFiles/main.dir/src/main.cpp.obj: \
  F:/GKD/GKD-Software-2025-Test/src/main.cpp \
  F:/GKD/GKD-Software-2025-Test/src/part6.hpp \
- F:/GKD/GKD-Software-2025-Test/src/part1.hpp \
+ F:/GKD/GKD-Software-2025-Test/src/part3.hpp \
  C:/msys64/mingw64/include/c++/15.2.0/iostream \
  C:/msys64/mingw64/include/c++/15.2.0/bits/requires_hosted.h \
  C:/msys64/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++config.h \

@@ -220,5 +220,5 @@ CMakeFiles/main.dir/src/part2.cpp.obj: \
  C:/msys64/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/messages_members.h \
  C:/msys64/mingw64/include/c++/15.2.0/bits/locale_facets_nonio.tcc \
  C:/msys64/mingw64/include/c++/15.2.0/bits/locale_conv.h \
- F:/GKD/GKD-Software-2025-Test/src/part1.hpp \
+ F:/GKD/GKD-Software-2025-Test/src/part3.hpp \
  C:/msys64/mingw64/include/c++/15.2.0/iostream
