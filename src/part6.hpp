@@ -4,13 +4,16 @@
 #include "part3.hpp"
 #include "part2.hpp"
 #include <opencv2/opencv.hpp>
+#include <ctime>
+#include <chrono>
+
 
 using namespace cv;
 using namespace std;
 
 template<class T>
 matrix<T> part6(model<T> model_) {
-    Mat img = imread("../nums/0.png",IMREAD_GRAYSCALE);
+    Mat img = imread("../nums/9.png",IMREAD_GRAYSCALE);
     if(img.empty()){
         cerr<<"Cannot read image!"<<endl;
         matrix<T> result(1, 10);
@@ -25,7 +28,11 @@ matrix<T> part6(model<T> model_) {
             x.data[0][i*28+j]=static_cast<T>(temp)/255.0;
         }
     }
+    auto start =chrono::high_resolution_clock::now();
     matrix<T> x_=model_.forward(x);
+    auto end =chrono::high_resolution_clock::now();
+    auto duration =chrono::duration_cast<chrono::milliseconds>(end-start).count();
+    cout<<"time:"<<duration<<"ms"<<endl;
     return x_;
 }
 
