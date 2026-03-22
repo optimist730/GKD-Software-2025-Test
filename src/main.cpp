@@ -57,14 +57,14 @@ int main(){
                 send_[i]=x.data[0][i];
             }
             send(applysocket, reinterpret_cast<const char*>(send_.data()), total_bytes, 0);
-/*
+
             for(int i=0;i<x.rows;i++){
                 for(int j=0;j<x.cols;j++){
                     cout<<x.data[i][j]<<endl;
                 }
                 break;
             }
-*/
+
         }else{
             cerr<<"recv failure"<<endl;
             break;
