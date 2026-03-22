@@ -22,6 +22,9 @@ int main(){
             send_.emplace_back(temp);
         }
     }
+
+
+
      WSADATA wsaData;
     if (WSAStartup(MAKEWORD(2, 2), &wsaData) != 0) {
         cerr << "Winsock初始化失败!" << endl;
@@ -55,7 +58,7 @@ int main(){
     vector<double> recv_(10);
     int total_bytes = 10 * sizeof(double);
     int total_received = 0;
-    cout<<"2"<<endl;
+    //cout<<"2"<<endl;
     while (total_received < total_bytes) {
         int received = recv(applysocket, reinterpret_cast<char*>(recv_.data()) + total_received,total_bytes-total_received, 0);
         if (received <= 0) {
@@ -63,14 +66,14 @@ int main(){
         }
         total_received += received;
     }
-    cout<<"3"<<endl;
+    //cout<<"3"<<endl;
     if (total_received == total_bytes) {
         // 处理接收到的数据
         for (double val : recv_) {
             std::cout << val <<endl;
         }
     }
-    cout<<"1"<<endl;
+    //cout<<"1"<<endl;
 
     return 0;
 }
